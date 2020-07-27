@@ -30,6 +30,7 @@ public class ValidExp {
 					return false;
 			}
 		}
+		if(!openStack.isEmpty()) return false;
 		return true;
 	}
 
